@@ -1,17 +1,11 @@
 ---
 layout: default
 ---
+<div class="container">
+  <h2 class="spacing">{{ page.title }}</h2>
 
-<article class="post">
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
+  <div class="blog-post spacing">
+    <p class="summary">{{ page.category }}<span class="date">{{ page.date | date: '%B %d, %Y' }}</span></p>
     {{ content }}
   </div>
-
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
-</article>
+</div>
