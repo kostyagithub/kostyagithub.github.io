@@ -6,8 +6,8 @@ published: true
 
 <div class="container">
   <h2 class="spacing">Наше меню</h2>
-	![Покушать](/images/food.jpg)
-	![Выпить](/images/drink.jpg)
+<img src="/images/food.jpg" alt="Покушать">
+<img src="/images/drink.jpg" alt="Выпить">
   
 
 
