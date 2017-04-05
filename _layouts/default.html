@@ -23,12 +23,12 @@
     <div class="content">
       {{ content }}
     </div>
-    <div class="wrapper-footer">
+    <footer>
       <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
+        <p class="center-text"> <a href="http://jashilko.ru">Created by Jashilko</a></p>
+        {% if site.footer-links.instagram %}<a href="http://instagram.com/{{ site.footer-links.github }}">{% include svg-icons/github.html %}</a>{% endif %}
+        {% if site.footer-links.twitter %}<a href="http://twitter.com/{{ site.footer-links.twitter }}">{% include svg-icons/twitter.html %}</a>{% endif %}         
       </div>
-    </div>
+    </footer>
   </body>
 </html>
