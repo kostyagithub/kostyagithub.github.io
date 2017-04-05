@@ -220,4 +220,4 @@ input[type="submit"] {
 }
 
 @import "highlights";
-@import "svg-icons";
+@import "/ _includes/svg-icons";
