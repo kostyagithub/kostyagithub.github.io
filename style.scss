@@ -1,6 +1,20 @@
 ---
 ---
 
+
+// Nicolas Gallagher's micro clearfix hack
+// http://nicolasgallagher.com/micro-clearfix-hack/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   padding: 0;
@@ -251,20 +265,6 @@ input[type="submit"] {
   float: left;
 
 }
-
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-
 
 .wrapper-masthead {
   height: auto;
