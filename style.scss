@@ -17,6 +17,10 @@
 
 .masthead {
   padding: 20px 0;
+  
+    @include mobile {
+    text-align: center;
+  }    
 }
 
 body {
@@ -31,12 +35,25 @@ body {
   width: 151px;
   margin-right: 15px;
   float: left;
+  
+    @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }    
   }
 
 main-nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-size: 18px;
+    
+      @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
 
 }
 
