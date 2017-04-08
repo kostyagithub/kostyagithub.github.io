@@ -129,10 +129,12 @@ nav.main-nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-@media only screen and (max-width: 365px) {
-  nav.main-nav ul {
+  
+    @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
   }
 }
 
