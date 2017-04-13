@@ -22,6 +22,15 @@ sass:
   
 general-email:
   kotlingeneral@yandex.ru
+  
+dir-email:
+  dir@nordiclub.ru
+
+art-mail:
+  art@nordiclub.ru
+  
+it-mail:
+  it@nordiclub.ru
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
